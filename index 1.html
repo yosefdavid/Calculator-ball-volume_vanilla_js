@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>index 1</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form name="ball_calculator_form">
+
+            <div class="row">
+
+                <div class="col">
+                    <h1 class="hedaer_form">מחשבון נפח כדור</h1>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <label>רדיוס:</label>
+                    <input type="text" name="radius_input" class="radius_input">
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <button type="button" onclick="calculated_volume_buuton()" class="btn btn-primary">חשב נפח</button>
+                    <button type="button" onclick="resat_button()" class="resat_buuton btn btn-info">אפס</button>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <span id="msg_span"></span>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <canvas id="my_canvas" class="my_canvas"></canvas>
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+
+
+</html>
